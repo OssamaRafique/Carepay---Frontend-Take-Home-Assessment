@@ -1,4 +1,4 @@
-# # CarePay Front-End Assignment
+# CarePay Front-End Assignment
 
 ## Task description
 
