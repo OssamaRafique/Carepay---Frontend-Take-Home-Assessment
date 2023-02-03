@@ -1,0 +1,35 @@
+<div nz-row [nzGutter]="[10, 10]">
+  <div nz-col nzSpan="24">
+    <form [formGroup]="formGroup" nz-form>
+      <nz-form-item>
+        <nz-form-control
+          [nzSpan]="24"
+          nzErrorTip="Please enter valid treatment code to perform search"
+        >
+          <nz-input-group [nzSuffix]="suffixIconSearch">
+            <input
+              type="text"
+              placeholder="Search by treatment code"
+              [formControlName]="treatmentFormKeysEnum.SearchQuery"
+              nz-input
+            />
+          </nz-input-group>
+        </nz-form-control>
+      </nz-form-item>
+    </form>
+  </div>
+  <div nzSpan="24" nz-col>
+    <app-treatments-table
+      [treatmentData]="treatmentData"
+      [pageIndex]="pageIndex"
+      [pageLimit]="pageLimit"
+      [totalItems]="totalItems"
+      [isLoading]="isLoading"
+      (onPaginationChange)="onPaginationDataChange($event)"
+    ></app-treatments-table>
+  </div>
+</div>
+
+<ng-template #suffixIconSearch>
+  <span nzType="search" nz-icon></span>
+</ng-template>

@@ -1,0 +1,23 @@
+<nz-layout>
+  <nz-header>
+    <div class="logo"></div>
+    <ul nz-menu nzTheme="dark" nzMode="horizontal">
+      <li
+        *ngFor="let menuItem of menuItems"
+        [routerLink]="menuItem.path"
+        nz-menu-item
+      >
+        {{ menuItem.name }}
+      </li>
+    </ul>
+  </nz-header>
+  <nz-content>
+    <div class="inner-content"><ng-content></ng-content></div>
+  </nz-content>
+  <nz-footer>
+    CarePay FE assessment ©2023 by
+    <a href="https://github.com/OssamaRafique" target="_blank">
+      Ossama Rafique
+    </a>
+  </nz-footer>
+</nz-layout>
