@@ -74,12 +74,12 @@ npm run start:documentation
 
 ## Application Structure
 
-![alt text](https://github.com/OssamaRafique/Carepay-Frontend-Take-Home-Assessment/blob/develop/src/assets/readme/application-structure.png?raw=true)
+![alt text](https://github.com/OssamaRafique/Carepay-Frontend-Take-Home-Assessment/blob/main/src/assets/readme/application-structure.png?raw=true)
 
 ## Documentaion Coverage
 
-![alt text](https://github.com/OssamaRafique/Carepay-Frontend-Take-Home-Assessment/blob/develop/src/assets/readme/documentation-coverage.png?raw=true)
+![alt text](https://github.com/OssamaRafique/Carepay-Frontend-Take-Home-Assessment/blob/main/src/assets/readme/documentation-coverage.png?raw=true)
 
 ## Unit Tests Coverage
 
-![alt text](https://github.com/OssamaRafique/Carepay-Frontend-Take-Home-Assessment/blob/develop/src/assets/readme/unit-tests-coverage.png?raw=true)
+![alt text](https://github.com/OssamaRafique/Carepay-Frontend-Take-Home-Assessment/blob/main/src/assets/readme/unit-tests-coverage.png?raw=true)
